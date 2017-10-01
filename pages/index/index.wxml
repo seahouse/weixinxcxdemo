@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <view><text>无锡海亚信息技术有限公司</text></view>
+    <view><image></image></view>
+  </view>
+  <view>
+    <view><text>0510-83488583</text></view>
+    <view><text>小程序开发、钉钉开发</text></view>
+  </view>
+  
+  <text></text>
+  Hello {{name}}!
+  <button bindtap="changeName"> Click me! </button>
+<!--
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+-->
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
