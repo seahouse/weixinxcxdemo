@@ -100,26 +100,15 @@
   border-top:0px;
 }
 .weui-grids .weui-grid{
-  padding:0 0 5px 0;
+  padding:0 0 10rpx 0;
   border:0px;
 }
 .weui-grid__icon {
-  width: 105px;
-  height:100px;
+  width: 220rpx;
+  height:200rpx;
 }
 .footer {
   margin-top:30rpx;
-}
-.bgItem {
-  height: 100px;
-  width: 100px; 
-}
-
-.bgItemCon {
-  margin-right: 1px;
-  margin-bottom: 1px;
-  display:table-cell;
-  width:33.3%;
 }
 
 .weui-panel::after,
