@@ -1,4 +1,59 @@
+/**fonts**/
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('iconfont.eot');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'iconfont';
+	src: url(data:application/font-woff;charset=utf-8;base64,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) format('woff'),
+		url('iconfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.iconfont {
+  font-family: 'iconfont';
+  font-weight: 500;
+  font-style: normal;
+  color: grey;
+}
+.icon-wxbdingwei:before { content: "\e624"; }
+
+.icon-shijian:before { content: "\e64d"; }
+
+.icon-iconfontphone:before { content: "\e634"; }
+
+.icon-phone1:before { content: "\e620"; }
+
+.icon-coordinates_fill:before { content: "\e6ec"; }
+
+.icon-coordinates:before { content: "\e6ed"; }
+
+.icon-picture_fill:before { content: "\e716"; }
+
+.icon-picture:before { content: "\e717"; }
+
+.icon-playon_fill:before { content: "\e718"; }
+
+.icon-playon:before { content: "\e719"; }
+
+.icon-time_fill:before { content: "\e735"; }
+
+.icon-time:before { content: "\e736"; }
+
+.icon-bofang:before { content: "\e625"; }
+
+.icon-shoucang:before { content: "\e627"; }
+
+.icon-wode:before { content: "\e62f"; }
+
+
+
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -18,4 +73,57 @@
 
 .usermotto {
   margin-top: 200px;
+}
+
+.flexContainer {
+  display: flex;
+}
+.leftHeader {
+  padding-top:0rpx;
+}
+.leftHeader .weui-media-box__title{
+  font-size:20px;
+  white-space: normal;
+}
+.rightHeader image {
+  border-radius:30px;
+}
+.info {
+  text-overflow:ellipsis;
+  overflow:hidden;
+  width:auto;
+  white-space: nowrap;
+  margin-left:10rpx;
+  font-size:13px
+}
+.infoCont::before {
+  border-top:0px;
+}
+.weui-grids .weui-grid{
+  padding:0 0 5px 0;
+  border:0px;
+}
+.weui-grid__icon {
+  width: 105px;
+  height:100px;
+}
+.footer {
+  margin-top:30rpx;
+}
+.bgItem {
+  height: 100px;
+  width: 100px; 
+}
+
+.bgItemCon {
+  margin-right: 1px;
+  margin-bottom: 1px;
+  display:table-cell;
+  width:33.3%;
+}
+
+.weui-panel::after,
+.weui-cells::after {
+  border:0px;
+
 }

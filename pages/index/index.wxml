@@ -1,15 +1,102 @@
 <!--index.wxml-->
+<page>
+  <view class="page">
+    <view class="page__hd weui-media-box flexContainer">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg leftHeader">
+        <view class="weui-media-box__title">无锡海亚信息技术有限公司</view>
+        <view class="weui-media-box__desc">IT 软件服务</view>
+      </view>
+      <view class="weui-media-box__hd weui-media-box__hd_in-appmsg rightHeader">
+        <image class="weui-media-box__thumb" src="../img/hd.jpg"></image>
+      </view>
+    </view>
+    <view class="page__by">
+      <view class="weui-panel">
+        <view class="weui-media-box weui-media-box_small-appmsg">
+          <view class="weui-cells weui-cells_in-small-appmsg ">
+            <navigator class="weui-cell weui-cell_access infoCont" url="" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"><view class="iconfont icon-coordinates_fill"></view></view>
+              <view class="weui-cell__bd weui-cell_primary info">
+                <view>江苏省无锡市新吴区江西北路30号</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+            <navigator class="weui-cell weui-cell_access infoCont" url="" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"><view class="iconfont icon-time_fill"></view></view>
+              <view class="weui-cell__bd weui-cell_primary info">
+                <view>00:00-23:59</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+            <navigator class="weui-cell weui-cell_access infoCont" url="" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"><view class="iconfont icon-phone1"></view></view>
+              <view class="weui-cell__bd weui-cell_primary info">
+                <view>0510-68500543</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+
+            <navigator class="weui-cell weui-cell_access infoCont" url="" hover-class="weui-cell_active">
+              <view class="weui-cell__hd"><view class="iconfont icon-picture_fill"></view></view>
+              <view class="weui-cell__bd weui-cell_primary info">
+                <view>门店照片</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+      <view class="weui-grids" style="padding: -5px 20px 0 20px;background-color:#fff;border:0px;">
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/2.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/3.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/3.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/2.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/3.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/3.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/2.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/3.jpg"></image>
+        </navigator>
+        <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <image class="weui-grid__icon" src="../img/3.jpg"></image>
+        </navigator>
+      </view>
+<!--
+     <view  style="padding: 0 20px;display:table;width:80%;margin-left:10%;">
+        <view class="weui-flex-item1 bgItemCon" >
+            <image class="pic_background bgItem" src="../img/3.jpg"></image>
+        </view>
+        <view class="weui-flex-item1 bgItemCon">
+            <image class="pic_background bgItem" src="../img/3.jpg"></image>
+        </view>
+        <view class="weui-flex-item1 bgItemCon">
+           <image class="pic_background bgItem" src="../img/3.jpg"></image>
+        </view>
+      </view>
+-->
+    </view>
+    <view class="weui-footer__text footer" style="text-align:center;display:block;">小程序开发、钉钉开发 | 0510-83488583</view>
+  </view>
+</page>
+
 <view class="container">
-  <view>
-    <view><text>无锡海亚信息技术有限公司</text></view>
-    <view><image></image></view>
-  </view>
-  <view>
-    <view><text>0510-83488583</text></view>
-    <view><text>小程序开发、钉钉开发</text></view>
-  </view>
-  
-  <text></text>
+<view style="height:200px;"></view>
   Hello {{name}}!
   <button bindtap="changeName"> Click me! </button>
 <!--
